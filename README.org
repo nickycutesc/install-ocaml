@@ -130,6 +130,8 @@
    dune build hello_world.exe
    dune exec ./hello_world.exe
    #+END_SRC
+   
+   *hello_world.exe is the executible version of the hello_world.ml file.
 
    This should print ~Hello, World~.
 ** Test that expect-tests work as intended
