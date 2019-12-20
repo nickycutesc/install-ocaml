@@ -206,3 +206,10 @@
    #+BEGIN_SRC bash
     opam reinstall -y ppx_inline_test ppx_expect
    #+END_SRC
+   
+   ** Error: dune: command not found
+   This is probably because your shell is not initialized properly. To initialize:
+
+   #+BEGIN_SRC bash
+    eval $(opam env)
+   #+END_SRC
